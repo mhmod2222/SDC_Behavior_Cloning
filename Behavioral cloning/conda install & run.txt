@@ -1,0 +1,25 @@
+conda install -c anaconda flask
+
+conda install -c conda-forge python-socketio
+
+conda install -c conda-forge eventlet
+
+conda install -n root conda=4.6
+
+conda install -c conda-forge tensorflow
+
+delete C:\ProgramData\Anaconda3\envs\tensorflow_env\etc\conda\activate.d
+
+conda install -c conda-forge keras
+
+conda install -c anaconda pillow
+
+conda install -c anaconda numpy
+
+conda install -c conda-forge opencv
+
+cd /D "E:\A\ZFav\The Complete Self-Driving Car Course – Applied Deep Learning\simulator-windows-64\Behavioral cloning"
+
+activate myenv
+
+python drive.py
